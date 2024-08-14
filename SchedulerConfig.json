@@ -1,0 +1,30 @@
+{
+    "Databases": [
+        {
+            "DatabaseName": "DB Name",
+            "CompanyName": "Company Name",
+            "Schedule": [
+                {
+                    "Time": "16:32",
+                    "CommandText": "EXEC TestTruncateTable",
+                    "Type": "Daily"
+                },
+                {
+                    "Time": "2024-06-26 11:29:00",
+                    "CommandText": "EXEC TestTruncateTable",
+                    "Type": "Days",
+                    "Days": 20
+                },
+                {
+                    "Time": "2024-06-26 11:29:00",
+                    "CommandText": "EXEC TestTruncateTable",
+                    "Type": "Monthly"
+                }
+            ]
+        }
+    ],
+    "DatabaseServerName": "DB Server Name",
+    "DatabaseUserName": "DB user name",
+    "DatabasePassword": "DB password",
+    "BaseDir": "C:\\Users\\User\\Downloads\\Finnaux"
+}
